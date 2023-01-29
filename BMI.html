@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="styleBMI.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Kalkulator BMI</h2>
+        <form>
+            <label for="tinggi">Tinggi (cm):</label>
+            <input type="number" id="tinggi" name="tinggi" required>
+            <br>
+            <label for="berat">Berat (kg):</label>
+            <input type="number" id="berat" name="berat" required>
+            <br>
+            <button type="button" onclick="hitungBMI()">Hitung BMI</button>
+        </form>
+        <h3 id="hasil"></h3>
+        <div>
+            <script src="mainBMI.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

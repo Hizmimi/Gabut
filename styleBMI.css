@@ -1,0 +1,23 @@
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+h3 {
+  margin: 20px 0;
+}
